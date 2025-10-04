@@ -13,7 +13,7 @@ services:
     restart: unless-stopped
   wiremock:
     image: "wiremock/wiremock:latest"
-    container_name: authentication
+    container_name: authentication-1
     ports:
       - '8089:8080'
     expose:
